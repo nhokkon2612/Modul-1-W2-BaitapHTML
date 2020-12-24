@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55e68b7c-8b8f-43f4-bcbe-969e6b1bed49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baithuchanh3/toantu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doitien/Quydoi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapbientoantu/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapbientoantu/Bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaiTapbientoantu/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/BaiTapbientoantu/bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KhiemtraAB.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/MayTinh/MayTinhCoBan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baithuchanh3/toantu.html" beforeDir="false" afterPath="$PROJECT_DIR$/baithuchanh3/toantu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -42,7 +48,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608673105185</updated>
-      <workItem from="1608673106289" duration="5821000" />
+      <workItem from="1608673106289" duration="21719000" />
+      <workItem from="1608728649047" duration="551000" />
+      <workItem from="1608758689250" duration="6607000" />
     </task>
     <servers />
   </component>
@@ -59,5 +67,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

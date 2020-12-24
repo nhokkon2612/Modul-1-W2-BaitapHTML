@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Tinhdiemtrungbinh</title>
 </head>
+
 <body>
-$END$
+    Nhập Điểm Hóa &nbsp;<input  id="diemhoa"><br>
+    Nhập Điểm Lý &nbsp; <input  id="diemly"><br>
+    Nhập Điểm Sinh <input  id="diemsinh"><br>
+    <button onclick="diemtrungbinh()">Tính điểm trung bình</button>
+    <button onclick="tongdiem()">Tính điểm tổng</button>
+    <script>
+        let diemly
+        let diemhoa
+        let diemsinh
+        let diemtrungbinh
+        let tongdiem
+
+        function tongdiem() {
+            tongdiem = diemly +diemhoa +diemsinh
+        }
+        function diemtrungbinh(){
+            diemtrungbinh = (diemly + diemhoa + diemsinh)/3
+        }
+        document.write(" điểm TB: "+ die )
+    </script>
+
 </body>
 </html>

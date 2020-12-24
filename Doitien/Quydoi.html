@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng đổi tiền</title>
+</head>
+<body>
+        <table>
+            <tr>
+                <td><strong>Amount</strong></td>
+                <td><strong>From Currency</strong></td>
+                <td></td>
+                <td><strong>To Currency</strong></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" id="soluong">
+                </td>
+                <td>
+                    <select id="tien1">
+                        <option value="23305">VNĐ</option>;
+                        <option value="1" selected>USD</option>;
+                    </select>
+                </td>
+                <td></td>
+                <td>
+                    <select id="tien2" >
+                        <option value="23305">VNĐ</option>;
+                        <option value="1">USD</option>;
+                    </select>
+                </td>
+                <td>
+                    <button onclick="anvao()">Đổi tiền</button>
+
+                </td>
+            </tr>
+        </table>
+
+        <script>
+
+            function anvao(){
+                let sl=document.getElementById('soluong').value
+                let t1=document.getElementById("tien1").value
+                let t2=document.getElementById("tien2").value
+                let kq=+(sl*t2/t1)
+                alert("Số tiền đã quy đổi  theo mênh giá là :" + kq );
+            }
+
+        </script>
+
+</body>
+</html>

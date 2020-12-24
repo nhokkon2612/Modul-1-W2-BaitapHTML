@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo Máy Tính</title>
+</head>
+<body>
+    <h2>Caculator</h2>
+        <input type="number" id="o1">  <input type="number" id="o2"> <br>
+        <button onclick="cong()">Addition(+)</button>
+        <button onclick="tru()">Subtraction(-)</button>
+        <button onclick="nhan()">Multiplication(X)</button>
+        <button onclick="chia()">Division(:)</button><br>
+    <script>
+
+        function cong() {
+            let o1= +document.getElementById("o1").value
+            let o2= +document.getElementById("o2").value
+            let kq = o1 + o2
+            alert("Result Addition : " + kq );
+        }
+        function tru() {
+            let o1= +document.getElementById("o1").value
+            let o2= +document.getElementById("o2").value
+            let kq = o1 - o2
+            alert("Result Subtraction :" + kq );
+        }
+        function nhan() {
+            let o1= +document.getElementById("o1").value
+            let o2= +document.getElementById("o2").value
+            let kq = o1 * o2
+            alert("Result Addition :" + kq );
+        }
+        function chia(){
+            let o1= +document.getElementById("o1").value
+            let o2= +document.getElementById("o2").value
+            let kq=o1/o2
+            alert("Result Addition :"+ kq );
+
+        }
+
+    </script>
+</body>
+</html>
