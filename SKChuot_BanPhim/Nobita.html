@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>di chuyen nobita</title>
+</head>
+<body onload="docReady()" >
+<img id="nobita" style="position: absolute;top: 0; left: 0;" height="300px" width="300px" src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.15752-0/s206x206/132087040_423931318639060_5129972207719850189_n.jpg?_nc_cat=103&ccb=2&_nc_sid=58c789&_nc_ohc=ATsyne2q1HoAX9RCP2v&_nc_ht=scontent.fhan3-2.fna&tp=7&oh=44f3bd4bd067ee143de790a3536390f2&oe=601A8322" >
+</body>
+
+<script>
+    function upArrowPressed() {
+        let element = document.getElementById("nobita");
+        element.style.top = parseInt(element.style.top) - 50 + 'px';
+    }
+    function downArrowPressed() {
+        var element = document.getElementById("nobita");
+        element.style.top = parseInt(element.style.top) + 50 + 'px';
+    }
+    function leftArrowPressed() {
+        var element = document.getElementById("nobita");
+        element.style.left = parseInt(element.style.left) - 50 + 'px';
+    }
+    function rightArrowPressed() {
+        var element = document.getElementById("nobita");
+        element.style.left = parseInt(element.style.left) + 50 + 'px';
+
+    }
+    function moveSelection(evt) {
+        switch (evt.keyCode) {
+            case 37:
+                leftArrowPressed();
+                break;
+            case 39:
+                rightArrowPressed();
+                break;
+            case 38:
+                upArrowPressed();
+                break;
+            case 40:
+                downArrowPressed();
+                break;
+        }
+    }
+    function docReady() {
+        window.addEventListener('keydown', moveSelection);
+    }
+
+
+</script>
+</html>
